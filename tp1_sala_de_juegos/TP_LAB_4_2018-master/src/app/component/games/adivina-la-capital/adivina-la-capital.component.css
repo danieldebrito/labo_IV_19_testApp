@@ -1,0 +1,23 @@
+.correcto {
+  text-align: center;
+}
+
+img {
+  border: 2px solid red;
+  height: 90px;
+  width: 150px; 
+}
+
+.col-sm-6 {
+  text-align: center;
+}
+
+.grid {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.row {
+  background-color: #ccc;
+}
+
