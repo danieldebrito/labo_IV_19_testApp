@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// styles //
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 // layout //
 import { NavComponent } from './components/layout/nav/nav.component';
 import { BodyComponent } from './components/layout/body/body.component';
@@ -26,7 +29,8 @@ import { AboutComponent } from './components/seccions/about/about.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
